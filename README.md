@@ -139,6 +139,12 @@ jobs:
           git push
 ```
 
-After these files are created, you can use PR to edit `habaform.hf` to make changes to your Harbor.
+Then you should create three GitHub Secrets:
+
+* HARBOR_USERNAME (e,g: `admin`)
+* HARBOR_PASSWORD (e,g: `Harbor12345`)
+* HARBOR_URL (e,g: `http://hub.nova.moe`)
+
+After that, you can use PR to edit `habaform.hf` to make changes to your Harbor.
 
 For more info, refer to [Habaform——用类似 IaC(Infrastructure as code) + GitOps 的方式管理 Harbor 的 Project 和 User](https://nova.moe/manage-harbor-projects-the-iac-way/) at this moment, through I can't promise there will be a better document soon.
